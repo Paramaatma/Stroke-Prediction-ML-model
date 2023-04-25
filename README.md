@@ -3,7 +3,7 @@ Overview:
 This project is aimed at building a machine learning model to predict the likelihood of a person having a stroke based on certain risk factors. The model uses a dataset of patient records including demographic information, lifestyle habits, and medical history to predict the probability of having a stroke.
 
 Dataset:
-The dataset used for this project is sourced from *healthcare-dataset-stroke-data.csv Realtime health care dataset* and contains records of 5110 patients with 12 attributes including age, gender, hypertension, heart disease, smoking status, etc. The data has been preprocessed and cleaned to remove any missing values or outliers.
+The dataset used for this project is sourced from `*healthcare-dataset-stroke-data.csv Realtime health care dataset*` and contains records of 5110 patients with 12 attributes including age, gender, hypertension, heart disease, smoking status, etc. The data has been preprocessed and cleaned to remove any missing values or outliers.
 
 Model Building
 The model is built using Python and the Scikit-learn library. The dataset is split into training and testing sets with a ratio of 80:20. The model is trained using several algorithms including Logistic Regression, Decision Tree, Random Forest, Decision Tree and SVM, . The best performing algorithm is chosen based on accuracy, precision, recall, and F1 score.
